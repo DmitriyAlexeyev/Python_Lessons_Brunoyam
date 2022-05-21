@@ -1,13 +1,5 @@
 list_to_sort = [3, 1, 5, 2, 17, 8, 11, 20, 7, 10]
 
-
-# def Sort(list_to_sort):
-#     for i in range(len(list_to_sort) - 1):
-#         minimum = 0
-#         for j in range((i + 1), len(list_to_sort)):
-#             if list_to_sort[j] < minimum:
-#                 minimum = j
-
 def find_minimum(list_to_find):
     minimum = list_to_sort[0]
     for i in range(len(list_to_sort) - 1):

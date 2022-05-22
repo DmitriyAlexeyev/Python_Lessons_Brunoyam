@@ -14,7 +14,7 @@ def selection_sort(list_to_sort):
         smallest = find_minimum(list_to_sort[i:])
         sorted_list.append(smallest)
         list_to_sort.remove(smallest)
-    print(sorted_list)
+    print(list_to_sort, sorted_list)
 
 
 selection_sort(list_to_sort)
